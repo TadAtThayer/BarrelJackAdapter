@@ -52,10 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "silk_edge_clearance|179550000|80010000|3a3e203f-297d-45fa-96af-3556df98c082|49fb5bf1-d6c8-4b8d-8c4d-2d279b494e3c",
-        "silk_edge_clearance|188750000|80010000|3a3e203f-297d-45fa-96af-3556df98c082|3b50cc3b-8f31-423e-a926-72c9e2c3c949"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -499,7 +496,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerbers/V1.0/",
+      "plot": "Gerbers/V1.1L/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
