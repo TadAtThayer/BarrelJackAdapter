@@ -59,8 +59,7 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|184144603|62346397|0e9ecc23-ec8c-44a6-a231-03a2682eba4d|ca6c52a2-80ca-4281-b738-39dd35a36007",
-        "missing_courtyard|185420000|49530000|4fa8550a-182a-4839-aa0d-1ef73ac6f07c|00000000-0000-0000-0000-000000000000"
+        "clearance|184144603|62346397|0e9ecc23-ec8c-44a6-a231-03a2682eba4d|ca6c52a2-80ca-4281-b738-39dd35a36007"
       ],
       "meta": {
         "version": 2
@@ -92,7 +91,7 @@
         "lib_footprint_mismatch": "error",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "error",
+        "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "error",
@@ -429,7 +428,7 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
