@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -58,9 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|184144603|62346397|0e9ecc23-ec8c-44a6-a231-03a2682eba4d|ca6c52a2-80ca-4281-b738-39dd35a36007"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -520,7 +518,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerbers/V1.0Buck/",
+      "plot": "Gerbers/V1.1Buck/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
