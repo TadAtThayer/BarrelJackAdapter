@@ -4863,7 +4863,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS563207DRLR"
+		(property "Value" "TPS563206DRLR"
 			(at 147.32 101.6 0)
 			(effects
 				(font
@@ -4898,7 +4898,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey PN" "TPS563207DRLRCT-ND"
+		(property "DigiKey PN" ""
 			(at 147.32 119.38 0)
 			(effects
 				(font
@@ -4907,7 +4907,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TPS563207DRLR"
+		(property "MPN" "TPS563206DRLR"
 			(at 147.32 119.38 0)
 			(effects
 				(font
