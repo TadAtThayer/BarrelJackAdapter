@@ -233,6 +233,10 @@
         {
           "diameter": 0.5,
           "drill": 0.25
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -506,7 +510,6 @@
         "bus_width": 12,
         "clearance": 0.2032,
         "diff_pair_gap": 0.2032,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.127,
         "line_style": 0,
         "microvia_diameter": 0.0,

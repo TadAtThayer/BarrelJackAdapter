@@ -705,7 +705,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "StockedComponents:LDL212PV33R"
+		(symbol "StockedComponents:LDL112PV33R"
 			(pin_names
 				(offset 0.254)
 			)
@@ -713,36 +713,39 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 15.24 10.16 0)
+				(at 20.32 10.16 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "LDL212PV33R"
-				(at 15.24 7.62 0)
+			(property "Value" "LDL112PV33R"
+				(at 20.32 7.62 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "STMicro:LDL212_2x2mm_Pitch0.5mm"
-				(at 17.78 6.35 0)
+			(property "Footprint" "DFN_2PV33R_STM"
+				(at 1.27 7.62 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 5.08 2.54 0)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/ldl112.pdf"
+				(at 5.08 5.08 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
+						(italic yes)
 					)
+					(hide yes)
 				)
 			)
 			(property "Description" ""
@@ -754,7 +757,15 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DFN_2PU50R_STM DFN_2PU50R_STM-M DFN_2PU50R_STM-L"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LDL112PV33R"
 				(at 0 0 0)
 				(effects
 					(font
@@ -763,21 +774,75 @@
 					(hide yes)
 				)
 			)
-			(symbol "LDL212PV33R_0_0"
-				(text "3.3"
-					(at 16.51 2.54 0)
-					(effects
-						(font
-							(size 2.0066 2.0066)
-							(bold yes)
+			(property "ki_fp_filters" "DFN_2PV33R_STM DFN_2PV33R_STM-M DFN_2PV33R_STM-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LDL112PV33R_0_1"
+				(pin unspecified line
+					(at 5.08 0 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -3.81 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 27.94 0 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
 						)
 					)
 				)
 			)
-			(symbol "LDL212PV33R_1_1"
+			(symbol "LDL112PV33R_1_1"
 				(rectangle
-					(start 7.62 5.08)
-					(end 25.4 -5.08)
+					(start 7.62 2.54)
+					(end 25.4 -6.35)
 					(stroke
 						(width 0)
 						(type solid)
@@ -786,129 +851,77 @@
 						(type background)
 					)
 				)
-				(pin power_in line
-					(at 5.08 1.27 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 -1.27 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 12.7 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 16.51 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 16.51 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-				)
 				(pin power_out line
-					(at 27.94 1.27 180)
+					(at 16.51 -8.89 90)
 					(length 2.54)
-					(name "VOUT"
+					(name "GND"
 						(effects
 							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 27.94 -1.27 180)
-					(length 2.54)
-					(name "Sense"
-						(effects
-							(font
-								(size 1.4986 1.4986)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.4986 1.4986)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 16.51 -8.89 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 16.51 -8.89 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -8.89 90)
+					(length 2.54)
+					(hide yes)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1978,12 +1991,6 @@
 		(uuid "ccf07f3c-d8ff-4e07-a4d7-36d11c4bedb8")
 	)
 	(junction
-		(at 252.73 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e740c523-144c-4f45-987c-f15787f7e0a0")
-	)
-	(junction
 		(at 171.45 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2007,7 +2014,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 114.3) (xy 263.525 114.3)
+			(xy 251.46 114.3) (xy 263.525 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2207,17 +2214,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 116.84) (xy 252.73 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63900097-7378-4618-8b4f-c3a394c3f9a5")
-	)
-	(wire
-		(pts
-			(xy 215.9 116.84) (xy 228.6 116.84)
+			(xy 215.9 118.11) (xy 228.6 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2314,16 +2311,6 @@
 			(type default)
 		)
 		(uuid "97837d22-8e5e-465d-92f0-083f53dfcd91")
-	)
-	(wire
-		(pts
-			(xy 252.73 116.84) (xy 252.73 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97d25aea-539c-40ae-ad44-ccbb007dd056")
 	)
 	(wire
 		(pts
@@ -2507,17 +2494,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 114.3) (xy 252.73 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc2e89e6-922d-49fa-8289-3da313962252")
-	)
-	(wire
-		(pts
-			(xy 215.9 116.84) (xy 215.9 114.3)
+			(xy 215.9 118.11) (xy 215.9 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2604,6 +2581,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 120.65 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Intent:Type" "connector"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3086,6 +3072,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 108.585 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Intent:Type" "connector"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3862,6 +3857,15 @@
 				(hide yes)
 			)
 		)
+		(property "Intent:Type" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "DigiKey PN" "CP-102AH-ND"
 			(at 63.5 111.76 0)
 			(effects
@@ -3889,49 +3893,89 @@
 		)
 	)
 	(symbol
-		(lib_id "StockedComponents:LDL212PV33R")
-		(at 223.52 115.57 0)
+		(lib_id "StockedComponents:LDL112PV33R")
+		(at 223.52 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "769780eb-5d51-46ea-8329-be7797539931")
-		(property "Reference" "U2"
-			(at 240.03 105.41 0)
+		(fields_autoplaced yes)
+		(uuid "789996af-f689-47b0-a306-851f668218fe")
+		(property "Reference" "U3"
+			(at 240.03 106.68 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "LDL212PV33R"
-			(at 240.03 107.95 0)
+		(property "DigiKeyPN" "497-15218-1-ND"
+			(at 0 0 0)
 			(effects
 				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
-			(at 241.3 109.22 0)
-			(effects
-				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 228.6 113.03 0)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LDL112PV33R"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Intent:Type" "ic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LDL112PV33R"
+			(at 240.03 109.22 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:DFN-6-1EP_3x3mm_P0.95mm_EP1.7x2.6mm"
+			(at 224.79 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/ldl112.pdf"
+			(at 228.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 223.52 115.57 0)
+			(at 223.52 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3939,39 +3983,31 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey PN" "497-19548-2-ND"
-			(at 227.33 123.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "00ee0691-34ab-490b-a272-87b549a59aef")
-		)
-		(pin "2"
-			(uuid "07891ff9-cb47-4258-a89f-3c677f8e5a92")
-		)
-		(pin "4"
-			(uuid "485f715a-d3e7-497b-9610-46cc0d95bce3")
-		)
-		(pin "5"
-			(uuid "41656f6f-1d8e-49a0-86c6-e18788d9173b")
+		(pin "6"
+			(uuid "69316fa3-e826-44aa-a06b-43a3287428a2")
 		)
 		(pin "1"
-			(uuid "51eaf08c-5cb9-4976-9c4e-9c7eba785bc6")
+			(uuid "111932de-30a5-4e0e-bb16-0e6567755c3b")
 		)
-		(pin "6"
-			(uuid "c669432a-658a-4cbf-bba1-b9b57e8c8daf")
+		(pin "4"
+			(uuid "550e8a4a-0ace-43d0-855a-708b7deeb35c")
+		)
+		(pin "2"
+			(uuid "e3106718-223e-4781-a6b8-f39e794ad96b")
+		)
+		(pin "3"
+			(uuid "6eb34456-332f-47fc-b119-755e96413621")
+		)
+		(pin "5"
+			(uuid "6c6b8717-b708-45fe-895f-444cecafaef4")
 		)
 		(pin "7"
-			(uuid "f110d246-7007-419a-8040-34e9af30d516")
+			(uuid "fb31e485-30a0-4e74-8409-6a777d45f6a8")
 		)
 		(instances
 			(project ""
 				(path "/aaab64ee-7a3b-4934-854f-34abe2430c7e"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4898,8 +4934,35 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey PN" ""
-			(at 147.32 119.38 0)
+		(property "LCSC" "C22427434"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" "296-TPS563206DRLRCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Intent:Type" "ic"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
