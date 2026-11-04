@@ -2553,6 +2553,33 @@
 				(justify left)
 			)
 		)
+		(property "DigiKeyPN" "35-PRPC004SAAN-RC-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PRPC004SAAN-RC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Value" "Conn_01x04"
 			(at 123.19 41.9099 0)
 			(effects
@@ -3041,6 +3068,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "DigiKeyPN" "35-PRPC004SAAN-RC-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PRPC004SAAN-RC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x04"
@@ -3747,7 +3801,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" "PJ-102AH"
+		(property "DigiKeyPN" "CP-102AH-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3756,7 +3810,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3096093"
+		(property "Manufacturer" "Same Sky (Formerly CUI Devices)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PJ-102AH"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3808,14 +3871,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "DigiKey PN" "CP-102AH-ND"
-			(at 63.5 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "3"
